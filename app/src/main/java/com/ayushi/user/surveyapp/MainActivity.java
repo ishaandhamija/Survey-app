@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         radioGroup4=(RadioGroup)findViewById(R.id.rg4);
         radioGroup5=(RadioGroup)findViewById(R.id.rg5);
 
-        db= FirebaseDatabase.getInstance().getReference("Question");
+        db= FirebaseDatabase.getInstance().getReference();
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,14 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("check", "onDataChange: "+dataSnapshot);
                     for (DataSnapshot snap : dataSnapshot.getChildren()) {
                         Log.d("checkk"," "+snap);
-                        String coun = snap.child("Count1").getValue(String.class);
+                        Long coun = snap.child("Count1").getValue(Long.class);
 
-                        Log.d("a", "hello: "+coun);
-                        int coun1=Integer.parseInt(coun);
-                        Log.d("aa", "theree: "+coun1);
+                        Log.d("count_data", "onDataChange: " + coun);
 
                     }
-
                 }
 
                 @Override
