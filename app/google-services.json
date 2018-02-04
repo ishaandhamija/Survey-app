@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "274458343471",
+    "firebase_url": "https://survey-app-bb5bb.firebaseio.com",
+    "project_id": "survey-app-bb5bb",
+    "storage_bucket": "survey-app-bb5bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274458343471:android:cf22f350c1cb87c6",
+        "android_client_info": {
+          "package_name": "com.ayushi.user.surveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274458343471-qu1gq01o4i161ht0q4eduak4n5k2kjs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_bLyysrLuIgKr_m1-uUFLwDFdIMqeKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
